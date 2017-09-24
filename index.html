@@ -1,1 +1,10 @@
-Hello World
+<script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+<div id="vrview"></div>
+window.addEventListener('load', onVrViewLoad)
+function onVrViewLoad() {
+  var vrView = new VRView.Player('#vrview', {
+    video: '160339.vr.jpg',
+    is_stereo: true
+  });
+}
+
