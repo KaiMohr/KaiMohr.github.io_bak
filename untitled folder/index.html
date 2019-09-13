@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script language="javascript" type="text/javascript">
+<script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+<div id="vrview"></div>
+window.addEventListener('load', onVrViewLoad)
+function onVrViewLoad() {
+  var vrView = new VRView.Player('#vrview', {
+    video: 'https://kaimohr.github.io/160339.vr.jpg',
+    is_stereo: true
+  });
+}
+ </script>
+test
+</body>
+</html>
